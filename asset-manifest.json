@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a31462ac.css",
-    "main.js": "/static/js/main.8aa7299a.js",
-    "static/media/insolubleslion.png": "/static/media/insolubleslion.8cac2c364656035c6e47.png",
-    "static/media/space.jpg": "/static/media/space.64e65bbe82c5bdb44b7e.jpg",
-    "static/media/neongrad1.jpg": "/static/media/neongrad1.c181d268f8a3261cc3d3.jpg",
-    "index.html": "/index.html",
-    "main.a31462ac.css.map": "/static/css/main.a31462ac.css.map",
-    "main.8aa7299a.js.map": "/static/js/main.8aa7299a.js.map"
+    "main.css": "/eleqtrick-portfolio/static/css/main.e4e0c20e.css",
+    "main.js": "/eleqtrick-portfolio/static/js/main.ce190db6.js",
+    "static/media/insolubleslion.png": "/eleqtrick-portfolio/static/media/insolubleslion.8cac2c364656035c6e47.png",
+    "static/media/space.jpg": "/eleqtrick-portfolio/static/media/space.64e65bbe82c5bdb44b7e.jpg",
+    "static/media/neongrad1.jpg": "/eleqtrick-portfolio/static/media/neongrad1.c181d268f8a3261cc3d3.jpg",
+    "index.html": "/eleqtrick-portfolio/index.html",
+    "main.e4e0c20e.css.map": "/eleqtrick-portfolio/static/css/main.e4e0c20e.css.map",
+    "main.ce190db6.js.map": "/eleqtrick-portfolio/static/js/main.ce190db6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a31462ac.css",
-    "static/js/main.8aa7299a.js"
+    "static/css/main.e4e0c20e.css",
+    "static/js/main.ce190db6.js"
   ]
 }
