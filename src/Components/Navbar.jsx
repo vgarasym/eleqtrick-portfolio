@@ -6,24 +6,24 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] bg-transparent flex justify-between items-center px-4 text-[#EAEAEA]">
       <div className="flex justify-between items-center">
-        <a href="https://vgarasym.github.io/"><img src={Logo} alt="Logo" style={{ width: "60px" }} /></a>
+        <a href="/"><img src={Logo} alt="Logo" style={{ width: "60px" }} /></a>
       </div>
       <div className="flex justify-between text-center text-white text-xl mx-4">
         <ul className="hidden md:flex justify-center items-center">
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="https://vgarasym.github.io/">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="https://vgarasym.github.io/about">About</a>
+            <a href="/about">About</a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="https://vgarasym.github.io/projects">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="https://vgarasym.github.io/skills">Skills</a>
+            <a href="/skills">Skills</a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="https://vgarasym.github.io/contact">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
