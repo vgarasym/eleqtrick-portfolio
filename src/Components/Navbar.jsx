@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../Assets/insolubleslion.png";
 import { BiLogoLinkedin, BiLogoTwitter, BiLogoGithub } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,29 +13,29 @@ const Navbar = () => {
       <div className="flex justify-between text-center text-white text-xl mx-4">
         <ul className="hidden md:flex justify-center items-center">
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <Link to="home" smooth={true} duration={500}>
+            <a href="/">
               Home
-            </Link>
+            </a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <Link to="about" smooth={true} duration={500}>
+            <a href="/">
               About
-            </Link>
+            </a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <Link to="projects" smooth={true} duration={500}>
+            <a href="/">
               Projects
-            </Link>
+            </a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <Link to="skills" smooth={true} duration={500}>
+            <a href="/">
               Skills
-            </Link>
+            </a>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <Link to="contact" smooth={true} duration={500}>
+            <a href="/">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

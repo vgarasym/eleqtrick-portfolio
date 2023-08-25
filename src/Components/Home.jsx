@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen bg-background bg-scroll">
+    <div className="w-screen h-screen bg-background bg-scroll snap-mandatory">
       <div className="flex justify-center items-center h-full">
         <div className="text-center">
           <h1 className="text-4xl sm:text-6xl md:max-w-[500px] text-white font-bold pb-6">
