@@ -1,29 +1,42 @@
 import React from "react";
 import Logo from "../Assets/insolubleslion.png";
 import { BiLogoLinkedin, BiLogoTwitter, BiLogoGithub } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] bg-transparent flex justify-between items-center px-4 text-[#EAEAEA]">
       <div className="flex justify-between items-center">
-        <a href="/"><img src={Logo} alt="Logo" style={{ width: "60px" }} /></a>
+        <a href="/">
+          <img src={Logo} alt="Logo" style={{ width: "60px" }} />
+        </a>
       </div>
       <div className="flex justify-between text-center text-white text-xl mx-4">
         <ul className="hidden md:flex justify-center items-center">
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="/">Home</a>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="/about">About</a>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="/projects">Projects</a>
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="/skills">Skills</a>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
           </li>
           <li className="mx-4 hover:border-b-4 hover:border-white">
-            <a href="/contact">Contact</a>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
