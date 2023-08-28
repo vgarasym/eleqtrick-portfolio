@@ -10,7 +10,6 @@ const Projects = () => {
               Projects
             </h1>
           </div>
-          <div></div>
         </div>
       </div>
     </div>
