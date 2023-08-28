@@ -11,7 +11,7 @@ const Home = () => {
             Hello, I'm Vitaliy Garasymovych
           </h1>
           <TypeAnimation
-          className="text-white font-bold pb-6"
+            className="text-white font-bold pb-6"
             sequence={[
               "Front End Developer",
               1500,
@@ -25,7 +25,7 @@ const Home = () => {
             style={{ fontSize: "2em" }}
           />
           <div className="flex justify-center">
-            <button className="px-4 py-2 my-12 bg-white flex border-4 hover:border-gray-400 items-center justify-center absolute">
+            <button className="px-4 py-2 my-12 bg-white flex border-4 hover:border-gray-400 items-center justify-center">
               Get in touch
               <AiOutlineArrowDown className="ml-3" />
             </button>
@@ -34,6 +34,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Home;
